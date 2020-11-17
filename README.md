@@ -20,6 +20,24 @@ Utilizamos o data set utilizado e processado no projeto 1 para predizer notas de
 
 Obs.: Para rodar o projeto 2 utilizamos o jupyter notebook e também iniciamos o mlflow pelo terminal do mesmo.
 
+##### Dependências
+- python3
+- pyspark 3.0.1 
+- mlflow
+- jupyter
+
+##### Rodando o Projeto 2
+- Primeiramente o rode o jupyter notebook na pasta que se encontra o notebook do projeto 2.
+```
+$ jupyter notebook
+```
+- Após abrir o jupyter no seu navegador, crie um novo terminar no próprio app do jupyter e rode o comando para iniciar o mlflow
+```
+$ mlflow ui
+```
+Com o mlflow rodando, agora já é possível rodar o notebook do projeto 2.
+**Obs: é importante rodar o mlflow no terminal do jupyter pois em nossos testes não funcionou rodando no terminal local.**
+
 Grupo:
 - Douglas Soares (dsl)
 - Jônatas Clementino (joc)
